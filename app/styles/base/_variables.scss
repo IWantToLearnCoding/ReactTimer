@@ -1,5 +1,6 @@
 /*This is a variable file*/
 $color-grey: #555;
+$color-deepSkyBlue: #1E90FF;
 
 /**Colors**/
 
@@ -10,5 +11,5 @@ $nav-text-color: white;
 
 /*Clock Colors*/
 $clock-text-color: white;
-$clock-bg-color: purple;
+$clock-bg-color: $color-deepSkyBlue;
 $clock-border-color: black;
