@@ -60,7 +60,7 @@ var Countdown = React.createClass({
 
 	render: function() {
 		var {count, countdownStatus} = this.state;
-		var renderControlCompnent = () => {
+		var renderControlComponent = () => {
 			if(countdownStatus !== 'stopped') {
 				return <Controls countdownStatus={countdownStatus} onStatusChange={this.handleStatusChange}/>
 			} else {
@@ -71,7 +71,7 @@ var Countdown = React.createClass({
 			<div>
 				<h1 className="page-title">Countdown</h1>
 				<Clock totalSeconds={count}/>
-				{renderControlCompnent()}
+				{renderControlComponent()}
 			</div>
 		);
 	}
